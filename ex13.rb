@@ -91,4 +91,5 @@ def part1
   arr.each_with_index{|a,i| res*=(i+1) if a == [[2]] || a==[[6]]}
   puts res
 end
+
 part1
